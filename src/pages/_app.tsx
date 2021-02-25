@@ -1,10 +1,10 @@
 import '../styles/global.css';
-import { ChallengesContexts, ChallengesProvider } from '../contexts/ChalengesContext';
+import { ChallengesContext, ChallengesProvider } from '../contexts/ChalengesContext';
 
 function MyApp({ Component, pageProps }) {
   return (
     <ChallengesProvider>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
     </ChallengesProvider>
   );
 }
