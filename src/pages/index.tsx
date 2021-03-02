@@ -11,9 +11,9 @@ import { ChallengesProvider } from '../contexts/ChalengesContext';
 import styles from '../styles/pages/Home.module.css';
 
 interface HomeProps {
-  level: Number;
-  currentExperience: Number;
-  challengesCompleted: Number;
+  level: number;
+  currentExperience: number;
+  challengesCompleted: number;
 }
 
 export default function Home(props: HomeProps) {
